@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Space, Tag } from 'antd';
 
-const { CheckableTag } = Tag;
+const { 翻译是否正确} = Tag;
 
-const tagsData = ['Movies', 'Books', 'Music', 'Sports'];
+const tagsData = ['yes', 'no',];
 
 const App: React.FC = () => {
   const [selectedTags, setSelectedTags] = useState<string[]>(['Books']);
